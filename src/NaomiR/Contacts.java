@@ -20,12 +20,12 @@ public class Contacts {
         return phonenum;
     }
 
-    //methof creates new record without creating a new obkect
+    //method creates new record without creating a new obkect
     // static allows us to not have to create new object
-    // this calls costrutor to create a public contact record
+    // this calls costructor to create a public contact record
 
     public  static Contacts createrecord( String name, String phonenum){
-// static allows us to create a new record of name and # without using a
+       // create a new record of name and # without using a
         // instance or object to call on from main
         return  new Contacts(name, phonenum);
 
