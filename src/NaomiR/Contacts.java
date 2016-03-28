@@ -20,7 +20,7 @@ public class Contacts {
         return phonenum;
     }
 
-    //method creates new record without creating a new obkect
+    //method creates new record without creating a new object
     // static allows us to not have to create new object
     // this calls costructor to create a public contact record
 
